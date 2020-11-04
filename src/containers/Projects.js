@@ -31,11 +31,12 @@ const Projects = ({ setProjectName }) => {
               setProjectName("jimmyfairly");
               history.push("/details");
             }}
-          ></div>
-          <ImageBlock
-            text={"Création du BackOffice de l'entreprise"}
-            image={jimmyfairly}
-          />
+          >
+            <ImageBlock
+              text={"Création du BackOffice de l'entreprise"}
+              image={jimmyfairly}
+            />
+          </div>
           <div
             onClick={() => {
               setProjectName("resco");
@@ -77,7 +78,6 @@ const Projects = ({ setProjectName }) => {
               image={verslemploi}
             />
           </div>
-
           <div
             onClick={() => {
               setProjectName("bayon");
