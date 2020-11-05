@@ -66,20 +66,25 @@
 .detailContent {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   margin: 10px 100px;
   background-color: #fff9f0;
   border-radius: 5px;
+  padding: 10px 10px;
 }
-/* .galerie {
+.galerie {
   width: 50vw;
-} */
-/* .galerieImage {
+}
+.galeriePortrait {
+  width: 30vw;
+}
+.galerieImage {
   width: 50vw;
   object-fit: contain;
-} */
+}
+.galeriePortraitImage {
+  width: 25vw;
+}
 .textColumn {
-  width: 50vw;
-  height: 100%;
-  padding: 0px 120px;
+  padding: 30px 90px;
 }
