@@ -1,11 +1,39 @@
 import React from "react";
+import tiphaine from "../assets/TIPHAINE_ROUND_PINK.png";
 
 function About() {
   return (
     <div className="page">
-        <div className="homeContent">
-            <p>coucou About</p>
+      <div className="aboutBox">
+        <div className="doubleColumns">
+          <div className="littleColumn">
+            <img src={tiphaine} className="photo" />
+          </div>
+          <div className="bigColumn">
+            <div className="title">
+              <h2>Tiphaine PELLET</h2>
+              <div className="lineAbout" />
+              <h4>Chef de projet digital et développeur web et mobile</h4>
+            </div>
+            <div className="description">
+              <img
+                className="quoteIconLeft"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDk1LjMzMyA5NS4zMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTMwLjUxMiw0My45MzljLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTgtMS4wMTljLTMuNTI3LDAtNi40NywwLjgwNi04Ljc1MiwxLjc5MyAgICBjMi4yLTguMDU0LDcuNDg1LTIxLjk1MSwxOC4wMTMtMjMuNTE2YzAuOTc1LTAuMTQ1LDEuNzc0LTAuODUsMi4wNC0xLjc5OWwyLjMwMS04LjIzYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1ICAgIHMtMS4wMzUtMS4wMDctMS43NS0xLjEwNWMtMC43NzctMC4xMDYtMS41NjktMC4xNi0yLjM1NC0wLjE2Yy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDMzLDMyLjA3NiAgICBjLTMuMSwxMS4wOC00LjAwOSwyNy43MzgsMy42MjcsMzguMjIzYzQuMjczLDUuODY3LDEwLjUwNyw5LDE4LjUyOSw5LjMxM2MwLjAzMywwLjAwMSwwLjA2NSwwLjAwMiwwLjA5OCwwLjAwMiAgICBjOS44OTgsMCwxOC42NzUtNi42NjYsMjEuMzQ1LTE2LjIwOWMxLjU5NS01LjcwNSwwLjg3NC0xMS42ODgtMi4wMzItMTYuODUxQzQwLjk3MSw0OS4zMDcsMzYuMjM2LDQ1LjU4NiwzMC41MTIsNDMuOTM5eiIgZmlsbD0iI2Y4Y2VjMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik05Mi40NzEsNTQuNDEzYy0yLjg3NS01LjEwNi03LjYxLTguODI3LTEzLjMzNC0xMC40NzRjLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTc5LTEuMDE5ICAgIGMtMy41MjcsMC02LjQ3MSwwLjgwNi04Ljc1MywxLjc5M2MyLjItOC4wNTQsNy40ODUtMjEuOTUxLDE4LjAxNC0yMy41MTZjMC45NzUtMC4xNDUsMS43NzMtMC44NSwyLjA0LTEuNzk5bDIuMzAxLTguMjMgICAgYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1Yy0wLjM5Ni0wLjYwNC0xLjAzNC0xLjAwNy0xLjc1LTEuMTA1Yy0wLjc3Ni0wLjEwNi0xLjU2OC0wLjE2LTIuMzU0LTAuMTYgICAgYy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDM0LDMyLjA3NmMtMy4wOTksMTEuMDgtNC4wMDgsMjcuNzM4LDMuNjI5LDM4LjIyNWM0LjI3Miw1Ljg2NiwxMC41MDcsOSwxOC41MjgsOS4zMTIgICAgYzAuMDMzLDAuMDAxLDAuMDY1LDAuMDAyLDAuMDk5LDAuMDAyYzkuODk3LDAsMTguNjc1LTYuNjY2LDIxLjM0NS0xNi4yMDlDOTYuMDk4LDY1LjU1OSw5NS4zNzYsNTkuNTc1LDkyLjQ3MSw1NC40MTN6IiBmaWxsPSIjZjhjZWMxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg=="
+              />
+              <p>
+                Passionnée par les problématiques et les enjeux actuels du
+                digital j’ai acquis une expérience allant du marketing digital,
+                au développement web en passant par la gestion de projets
+                digitaux.
+              </p>
+              <img
+                className="quoteIconRight"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDk4LjgyOSA5OC44MjkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTk2Ljc2LDQxLjYwM0M5MS41MTEsMjIuODMxLDc4LjU2Miw5LjIwNCw2NS45NzUsOS4yMDRjLTEuMDExLDAtMi4wMjEsMC4wODgtMy4wMDUsMC4yNjIgICAgYy0wLjU1OCwwLjA5OC0xLjA0NiwwLjQyNi0xLjM0OCwwLjkwMmMtMC4zMDEsMC40NzktMC4zODYsMS4wNjEtMC4yMzMsMS42MDVsMi41OTEsOS4yNjhjMC4yNSwwLjg5NSwxLjExMywxLjUsMi4wMSwxLjQ1OSAgICBsMC4yMDYtMC4wMDRjNC42NjgsMCwxMy4xOTksNi45OTYsMTcuNTQ4LDIyLjU0NWMwLjE3MiwwLjYxNywwLjMzNSwxLjI0OCwwLjQ5MiwxLjkwNmMtNC44ODItMi40MTYtMTAuNzA2LTIuOTc1LTE1Ljk4LTEuNTA2ICAgIEM1Ni4zNTgsNDguOTcsNDkuMzg4LDYxLjM1Niw1Mi43MTQsNzMuMjUyYzIuNjk2LDkuNjM5LDExLjU2MywxNi4zNzMsMjEuNTYzLDE2LjM3M2MyLjAzNywwLDQuMDcxLTAuMjgxLDYuMDQ2LTAuODM0ICAgIGM3Ljg0Ni0yLjE5MywxMy43NDUtOC43MDcsMTYuNjExLTE4LjMzOEM5OS41MjEsNjEuNzY0LDk5LjQ1Niw1MS4yNDksOTYuNzYsNDEuNjAzeiIgZmlsbD0iI2Y4Y2VjMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik0xNC4wODgsOS4yMDZjLTEuMDA5LDAtMi4wMiwwLjA4Ni0zLjAwMywwLjI2Yy0wLjU1NywwLjA5Ni0xLjA0NiwwLjQyNi0xLjM0NywwLjkwMiAgICBjLTAuMzAxLDAuNDc5LTAuMzg2LDEuMDYxLTAuMjM0LDEuNjA1bDIuNTkyLDkuMjY4YzAuMjUsMC44OTUsMS4wOTcsMS41LDIuMDEsMS40NTlsMC4yMDQtMC4wMDQgICAgYzQuNjY4LDAsMTMuMiw2Ljk5NiwxNy41NDksMjIuNTQ1YzAuMTczLDAuNjIxLDAuMzM2LDEuMjUyLDAuNDkyLDEuOTA2Yy00Ljg4NC0yLjQxNi0xMC43MDYtMi45NzUtMTUuOTgtMS41MDYgICAgQzQuNDc1LDQ4Ljk3LTIuNDk3LDYxLjM1NiwwLjgzMSw3My4yNTJjMi42OTYsOS42MzksMTEuNTYzLDE2LjM3MywyMS41NjMsMTYuMzczYzIuMDM3LDAsNC4wNzEtMC4yODEsNi4wNDctMC44MzQgICAgYzcuODQ1LTIuMTkzLDEzLjc0NC04LjcwNywxNi42MTEtMTguMzM4YzIuNTg2LTguNjg5LDIuNTIyLTE5LjIwNS0wLjE3NS0yOC44NTJDMzkuNjI1LDIyLjgzMSwyNi42NzgsOS4yMDYsMTQuMDg4LDkuMjA2eiIgZmlsbD0iI2Y4Y2VjMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4="
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
   );
 }

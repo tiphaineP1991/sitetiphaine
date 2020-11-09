@@ -6,26 +6,10 @@ const SlideShow = ({ photo1, photo2, photo3, photo4 }) => {
   return (
     <div className="galerie">
       <Fade>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={photo1} className="galerieImage" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={photo2} className="galerieImage" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={photo3} className="galerieImage" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={photo4} className="galerieImage" />
-          </div>
-        </div>
+        <img src={photo1} className="galerieImage" />
+        <img src={photo2} className="galerieImage" />
+        <img src={photo3} className="galerieImage" />
+        <img src={photo4} className="galerieImage" />
       </Fade>
     </div>
   );
