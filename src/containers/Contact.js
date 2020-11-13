@@ -20,12 +20,12 @@ function Contact() {
   };
 
   return (
-    <div className="page">
+    <div className="pageContact">
       <div className="contactBox">
         <h4>
           Vous souhaitez discuter d'un projet, ou simplement avez une question ?
         </h4>
-        <p>N'hésitez pas à me contacter !</p>
+        <p>N'hésitez pas à me contacter par mail ou sur LinkedIn!</p>
         <br />
         <div className="doubleColumns">
           <div style={{ paddingTop: 50 }}>

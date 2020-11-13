@@ -24,6 +24,7 @@ const VerslEmploiPage = () => {
             en aisance et optimiser sa présentation orale, Être efficace dans
             ses recherches et améliorer sa visibilité.
           </p>
+          <br />
           <li>Etude de marché et de faisabilité afin de définir le projet</li>
           <li>
             Définition d'un planning et d'un budget prévisionnel et recherche de
@@ -40,6 +41,7 @@ const VerslEmploiPage = () => {
           <li>Réalisation du plan de communication pour le lancement</li>
           <li>Réferencement du site</li>
           <li>Suivi et améalioration du produit</li>
+          <br />
           <h5 style={{ fontStyle: "italic", color: "var(--green)" }}>
             6 mois après le lancement, 2300 femmes avaient suivi la formation
             dont 74% étaient sans emploi.

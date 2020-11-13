@@ -24,6 +24,7 @@ const MaBoitePage = () => {
             d’entreprise : de sa définition, en passant par son montage et sa
             mise en place.
           </p>
+          <br />
           <li>Etude de marché et de faisabilité afin de définir le projet</li>
           <li>
             Définition d'un planning et d'un budget prévisionnel et recherche de
@@ -40,6 +41,7 @@ const MaBoitePage = () => {
           <li>Réalisation du plan de communication pour le lancement</li>
           <li>Réferencement du site</li>
           <li>Suivi et améalioration du produit</li>
+          <br />
           <h5 style={{ fontStyle: "italic", color: "var(--green)" }}>
             1 an après le lancement, 4000 femmes avaient suivi la formation soit
             +200% vs objectif

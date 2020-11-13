@@ -33,7 +33,7 @@ const App = () => {
               {page === "projects" ? (
                 <Projects setProjectName={setProjectName} />
               ) : null}
-              {page === "about" ? <About /> : null}
+              {page === "about" ? <About setPage={setPage} /> : null}
               {page === "contact" ? <Contact /> : null}
             </Route>
           </Switch>

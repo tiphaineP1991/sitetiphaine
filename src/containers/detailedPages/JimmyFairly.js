@@ -19,6 +19,7 @@ const JimmyFairlyPage = () => {
             puis assemblées à la main en France, dans leur Atelier. Le tout sans
             intermédiaire pour proposer le prix le plus juste.
           </p>
+          <br />
           <p>
             Dans un contexte de forte croissance, l'entreprise s'était focalisée
             sur l'ouverture de boutique, mais les process en interne étaient
@@ -27,6 +28,7 @@ const JimmyFairlyPage = () => {
             fichier client et le suivi des statistiques. J'ai travaillé en tant
             que développeur et Scrum Master sur ce projet
           </p>
+          <br />
           <li>Sourcing des besoins auprès des équipes</li>
           <li>Création des wireframes</li>
           <li>Choix techniques pour le front et l'organisation du code</li>
