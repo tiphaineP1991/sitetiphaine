@@ -9,7 +9,14 @@ const Header = ({ setPage, page }) => {
   return (
     <div className="Header">
       <div className="logoBar">
-        <img className="logo" src={logo} />
+        <img
+          className="logo"
+          src={logo}
+          onClick={() => {
+            setPage("projects");
+            history.push("/");
+          }}
+        />
       </div>
       <div className="menuBar">
         <p

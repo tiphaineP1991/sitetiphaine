@@ -26,9 +26,9 @@ function About({ setPage }) {
                 digital j’ai acquis une expérience en marketing digital et
                 gestion de projets digitaux avant de reprendre une formation en
                 développement web et mobile sur React, React Native et Node Js.
-                Forte de cette double compétence, je saurais aujourd'hui gérer
-                et développer tous vos projets et site web et d'applications
-                mobiles
+                Forte de cette double compétence, je peux aujourd'hui, piloter
+                et développer tous vos projets de site web et d'application
+                mobile.
               </p>
               <img
                 className="quoteIconRight"
