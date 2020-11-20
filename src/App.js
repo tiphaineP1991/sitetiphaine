@@ -5,12 +5,12 @@ import Projects from "./containers/Projects";
 import About from "./containers/About";
 import Contact from "./containers/Contact";
 import Header from "./components/header";
-import ForceFemmes from "./containers/detailedPages/ForceFemmes";
-import JimmyFairly from "./containers/detailedPages/JimmyFairly";
-import ResCo from "./containers/detailedPages/ResCo";
-import MaBoite from "./containers/detailedPages/MaBoite";
-import Bayon from "./containers/detailedPages/Bayon";
-import VerslEmploi from "./containers/detailedPages/VerslEmploi";
+import ForceFemmes from "./containers/ForceFemmes";
+import JimmyFairly from "./containers/JimmyFairly";
+import ResCo from "./containers/ResCo";
+import MaBoite from "./containers/MaBoite";
+import Bayon from "./containers/Bayon";
+import VerslEmploi from "./containers/VerslEmploi";
 
 const App = () => {
   const [page, setPage] = useState("projects");

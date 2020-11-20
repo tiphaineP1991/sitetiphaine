@@ -1,10 +1,10 @@
 import React from "react";
-import SlideShow from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/slideshow.js";
-import Button from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/button.js";
-import maboite1 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Maboite/maboite1.png";
-import maboite2 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Maboite/maboite2.png";
-import maboite3 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Maboite/maboite3.png";
-import maboite4 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Maboite/maboite4.png";
+import SlideShow from "../components/slideshow.js";
+import Button from "../components/button";
+import maboite1 from "../assets/Maboite/maboite1.png";
+import maboite2 from "../assets/Maboite/maboite2.png";
+import maboite3 from "../assets/Maboite/maboite3.png";
+import maboite4 from "../assets/Maboite/maboite4.png";
 
 const MaBoitePage = () => {
   return (

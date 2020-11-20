@@ -1,10 +1,10 @@
 import React from "react";
-import SlideShow from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/slideshow.js";
-import Button from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/button.js";
-import verslemploi1 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Verslemploi/Verslemploi1.png";
-import verslemploi2 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Verslemploi/Verslemploi2.png";
-import verslemploi3 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Verslemploi/Verslemploi3.png";
-import verslemploi4 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Verslemploi/Verslemploi4.png";
+import SlideShow from "../components/slideshow.js";
+import Button from "../components/button";
+import verslemploi1 from "../assets/Verslemploi/Verslemploi1.png";
+import verslemploi2 from "../assets/Verslemploi/Verslemploi2.png";
+import verslemploi3 from "../assets/Verslemploi/Verslemploi3.png";
+import verslemploi4 from "../assets/Verslemploi/Verslemploi4.png";
 
 const VerslEmploiPage = () => {
   return (

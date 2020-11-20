@@ -1,11 +1,11 @@
 import React from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import Button from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/button.js";
-import resco1 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Resco/Resco1.png";
-import resco2 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Resco/Resco2.png";
-import resco3 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Resco/Resco3.png";
-import resco4 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Resco/Resco4.png";
+import Button from "../components/button";
+import resco1 from "../assets/Resco/Resco1.png";
+import resco2 from "../assets/Resco/Resco2.png";
+import resco3 from "../assets/Resco/Resco3.png";
+import resco4 from "../assets/Resco/Resco4.png";
 
 const ResCoPage = () => {
   return (

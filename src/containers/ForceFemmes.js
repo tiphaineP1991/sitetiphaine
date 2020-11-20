@@ -1,10 +1,10 @@
 import React from "react";
-import SlideShow from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/slideshow.js";
-import Button from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/button.js";
-import ff1 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Forcefemmes/ForceFemmes1.png";
-import ff2 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Forcefemmes/ForceFemmes2.png";
-import ff3 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Forcefemmes/ForceFemmes3.png";
-import ff4 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/Forcefemmes/ForceFemmes4.png";
+import SlideShow from "../components/slideshow.js";
+import Button from "../components/button";
+import ff1 from "../assets/Forcefemmes/ForceFemmes1.png";
+import ff2 from "../assets/Forcefemmes/ForceFemmes2.png";
+import ff3 from "../assets/Forcefemmes/ForceFemmes3.png";
+import ff4 from "../assets/Forcefemmes/ForceFemmes4.png";
 
 const ForceFemmesPage = () => {
   return (

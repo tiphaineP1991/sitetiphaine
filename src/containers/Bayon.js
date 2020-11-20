@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/button.js";
-import bayon from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/bayon2.jpg";
+import Button from "../components/button";
+import bayon from "../assets/bayon2.jpg";
 
 const BayonPage = () => {
   return (

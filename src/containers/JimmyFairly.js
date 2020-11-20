@@ -1,10 +1,10 @@
 import React from "react";
-import SlideShow from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/slideshow.js";
-import Button from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/components/button.js";
-import jf1 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/JimmyFairly/jimmyfairly1.png";
-import jf2 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/JimmyFairly/jimmyfairly2.png";
-import jf3 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/JimmyFairly/jimmyfairly3.png";
-import jf4 from "/Users/tiphainepellet/Documents/BOULOT/Site TP/site-tiphaine/src/assets/JimmyFairly/jimmyfairly4.png";
+import SlideShow from "../components/slideshow.js";
+import Button from "../components/button";
+import jf1 from "../assets/JimmyFairly/jimmyfairly1.png";
+import jf2 from "../assets/JimmyFairly/jimmyfairly2.png";
+import jf3 from "../assets/JimmyFairly/jimmyfairly3.png";
+import jf4 from "../assets/JimmyFairly/jimmyfairly4.png";
 
 const JimmyFairlyPage = () => {
   return (
