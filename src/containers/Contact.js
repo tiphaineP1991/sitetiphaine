@@ -63,12 +63,14 @@ function Contact() {
             <form className="form" onSubmit={(event) => sendMessage()}>
               <p>Formulaire de contact</p>
               <input
+                className="inputMobile"
                 type="name"
                 placeholder="Votre nom"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               ></input>
               <input
+                className="inputMobile"
                 type="mail"
                 placeholder="Votre email"
                 value={mail}

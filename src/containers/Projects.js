@@ -50,8 +50,6 @@ const Projects = ({ setProjectName }) => {
               image={resco}
             />
           </div>
-        </div>
-        <div className="line">
           <div
             onClick={() => {
               setProjectName("maboite");
