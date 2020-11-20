@@ -6,7 +6,12 @@ const RatingStars = ({ competence, grade }) => {
     <div className="competence">
       <p className="competences">{competence}</p>
       <div className="rating">
-        <Rating name="read-only" value={grade} readOnly />
+        <Rating
+          name="read-only"
+          value={grade}
+          readOnly
+          style={{ color: "#f8cec1" }}
+        />
       </div>
     </div>
   );
