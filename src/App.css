@@ -117,7 +117,7 @@ input {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  margin: 0px 200px;
+  margin: 0px 180px;
 }
 @media (max-width: 800px) {
   .line {
